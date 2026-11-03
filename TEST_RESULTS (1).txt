@@ -1,0 +1,23 @@
+test_invalid_utf8_raises_unicode_error (test_main.TestFileReading.test_invalid_utf8_raises_unicode_error) ... ok
+test_missing_file_raises_clear_error (test_main.TestFileReading.test_missing_file_raises_clear_error) ... ok
+test_reads_utf8_file (test_main.TestFileReading.test_reads_utf8_file) ... ok
+test_does_not_match_inside_longer_text (test_main.TestPassportSearch.test_does_not_match_inside_longer_text) ... ok
+test_duplicates_are_removed_across_formats (test_main.TestPassportSearch.test_duplicates_are_removed_across_formats) ... ok
+test_finds_all_supported_formats (test_main.TestPassportSearch.test_finds_all_supported_formats) ... ok
+test_no_matches_and_empty_text (test_main.TestPassportSearch.test_no_matches_and_empty_text) ... ok
+test_order_of_first_appearance_is_kept (test_main.TestPassportSearch.test_order_of_first_appearance_is_kept) ... ok
+test_punctuation_around_match_is_allowed (test_main.TestPassportSearch.test_punctuation_around_match_is_allowed) ... ok
+test_removed_format_is_not_found (test_main.TestPassportSearch.test_removed_format_is_not_found) ... ok
+test_invalid_records (test_main.TestPassportValidation.test_invalid_records) ... ok
+test_non_string_input_returns_false (test_main.TestPassportValidation.test_non_string_input_returns_false) ... ok
+test_supported_formats (test_main.TestPassportValidation.test_supported_formats) ... ok
+test_http_error_is_wrapped (test_main.TestWebReading.test_http_error_is_wrapped) ... ok
+test_network_error_is_wrapped (test_main.TestWebReading.test_network_error_is_wrapped) ... ok
+test_reads_page_text_and_sets_timeout (test_main.TestWebReading.test_reads_page_text_and_sets_timeout) ... ok
+test_rejects_invalid_urls (test_main.TestWebReading.test_rejects_invalid_urls) ... ok
+test_rejects_non_string_url (test_main.TestWebReading.test_rejects_non_string_url) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.005s
+
+OK
